@@ -11,7 +11,7 @@ email_origen=""
 
 @app.route("/")
 def incio():
-    return render_template("login.html")
+    return render_template("index.html")
 
 @app.route("/validarUsuario",methods=["GET","POST"])
 def validarUsuario():
